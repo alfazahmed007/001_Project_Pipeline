@@ -34,15 +34,16 @@
   <distributionManagement>
 	
 	    <repository>
-	      <id>Jfrog</id>
-	      <name>001_Project_Pipeline Release Jfrog Repository</name>
-	      <url><url>http:/localhost:8046/artifactory/facebook-releases</url>
-	    </repository>
+              <id>central</id>
+              <name>DESKTOP-C5Q8P9A-releases</name>
+              <url>http://localhost:8046/artifactory/facebook-releases</url>
+            </repository>
+	
 	    
 	    <snapshotRepository>
-	      <id>Jfrog</id>
-	      <name>001_Project_Pipeline Snapshot Jfrog Repository </name>
-	      <url>http:/localhost:8046/artifactory/facebook-snapshot</url>
+	      <id>snapshots</id>
+              <name>DESKTOP-C5Q8P9A-snapshots</name>
+              <url>http://localhost:8046/artifactory/facebook-snapshot</url>
 	    </snapshotRepository> -->
 	    
 	</distributionManagement>
